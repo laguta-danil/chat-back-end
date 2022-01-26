@@ -3,10 +3,12 @@ import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { ChatsModule } from './chat/chat.module';
 
 @Module({
   imports: [
     UserModule,
+    ChatsModule,
     MongooseModule.forRoot(
       'mongodb+srv://chat-project:chat-project123@cluster0.8o0qg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
       { useNewUrlParser: true },
