@@ -9,11 +9,11 @@ export class Chat {
     @Prop()
     name: string;
 
-    // @Prop()
-    // users: Array<string>;
+    @Prop()
+    users: Array<string>;
 
-    // @Prop()
-    // messages: Array<string>;
+    @Prop()
+    messages: Array<string>;
 
     
 }
