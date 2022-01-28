@@ -9,6 +9,5 @@ import { Module } from '@nestjs/common';
   controllers: [UsersController],
   providers: [UsersService],
   exports: [UsersService],
-
 })
 export class UserModule {}

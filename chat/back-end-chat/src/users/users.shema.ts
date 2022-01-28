@@ -4,4 +4,5 @@ export const UserSchema = new mongoose.Schema({
   name: String,
   email: String,
   created_at: { type: Date, default: Date.now },
+  password: String,
 });

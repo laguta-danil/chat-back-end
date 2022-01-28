@@ -5,17 +5,14 @@ export type ChatDocument = Chat & Document;
 
 @Schema()
 export class Chat {
+  @Prop()
+  name: string;
 
-    @Prop()
-    name: string;
+  @Prop()
+  users: Array<string>;
 
-    @Prop()
-    users: Array<string>;
-
-    @Prop()
-    messages: Array<string>;
-
-    
+  @Prop()
+  messages: Array<string>;
 }
 
 export const ChatSchema = SchemaFactory.createForClass(Chat);

@@ -17,7 +17,6 @@ import { MessagesModule } from './messages/messages.module';
       'mongodb+srv://chat-project:chat-project123@cluster0.8o0qg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
       { useNewUrlParser: true },
     ),
-    
   ],
   controllers: [AppController],
   providers: [AppService],

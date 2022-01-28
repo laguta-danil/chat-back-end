@@ -1,0 +1,107 @@
+{
+  //Window
+  "window.zoomLevel": -0,
+
+  //Main editor settings
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.folding": true,
+  "editor.insertSpaces": false,
+  "editor.smoothScrolling": false,
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": true,
+  "editor.suggestSelection": "first",
+  //Определяет, будет ли редактор прокручиваться за пределы последней строки.
+  "editor.scrollBeyondLastLine": true,
+  "editor.snippetSuggestions": "bottom",
+  "editor.multiCursorModifier": "alt",
+  //Определяет, должен ли редактор отображать управляющие символы.
+  "editor.renderControlCharacters": true,
+  //Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользовательского языкового стандарта.
+  "editor.unicodeHighlight.ambiguousCharacters": true,
+
+  //Appearance
+  "editor.cursorBlinking": "smooth",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.glyphMargin": true,
+
+  //Font
+  "editor.fontSize": 14,
+
+  //Explorer
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+
+  //Emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showExpandedAbbreviation": "never",
+
+  //Workbench
+  "workbench.colorTheme": "Omni",
+  //Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+
+  //Debug
+  // "debug.toolBarLocation": "hidden",
+  // "debug.focusWindowOnBreak": false,
+  // "debug.showInlineBreakpointCandidates": false,
+  // "debug.showBreakpointsInOverviewRuler": false,
+
+  //Format
+  "prettier.semi": false,
+  "prettier.useTabs": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  //Включите круглые скобки вокруг единственного параметра функции стрелки
+  "prettier.arrowParens": "avoid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  //Terminal
+  "terminal.integrated.fontSize": 14,
+
+  //Other
+  //Зафиксируйте все изменения, когда нет поэтапных изменений.
+  "git.enableSmartCommit": true,
+  "files.defaultLanguage": "plaintext",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  //Breadcrumbs
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.symbolPath": "off",
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showConstructors": false,
+
+  //Spell checker
+  "cSpell.language": "en,ru",
+  "cSpell.userWords": [],
+  "cSpell.enabled": true,
+  "cSpell.enableFiletypes": ["blade", "jsx", "sass", "vue"],
+
+  "editor.unicodeHighlight.allowedCharacters": {
+    "а": true,
+    "с": true,
+    "Т": true,
+    "б": true,
+    "е": true
+  }
+}
