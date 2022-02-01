@@ -1,13 +1,5 @@
-
 import { CreateMessagesDto } from './create-messages.dto';
-import {
-  Controller,
-  Post,
-  Get,
-  Res,
-  Body,
-  HttpStatus,
-} from '@nestjs/common';
+import { Controller, Post, Get, Res, Body, HttpStatus } from '@nestjs/common';
 import { MessagesService } from './messages.service';
 
 @Controller('messages')

@@ -3,4 +3,5 @@ export class CreateUsersDTO {
   email: string;
   created_at: number;
   password: string;
+  _id?: string;
 }
