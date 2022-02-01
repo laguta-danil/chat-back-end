@@ -13,8 +13,7 @@ export class ChatsController {
   }
   @Post()
   async create(@Body() createChatDto: CreateChatDto) {
-    await this.chatsService.create(createChatDto);
-    return this.chatsService.findAll();
+    return await this.chatsService.create(createChatDto);
   }
 
   @Get(':id')
