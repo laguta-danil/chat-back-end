@@ -14,15 +14,16 @@ export class ChatsController {
   @Post()
   async create(@Body() createChatDto: CreateChatDto) {
     await this.chatsService.create(createChatDto);
+    return this.chatsService.findAll();
   }
 
-  @Get(':_id')
-  findOne(@Param('_id') _id: string): Promise<Chat> {
+  @Get(':id')
+  findOne(@Param('id') _id: string): Promise<Chat> {
     return this.chatsService.findOne(_id);
   }
 
-  @Delete(':_id')
-  remove(@Param('_id') _id: string): Promise<void> {
+  @Delete(':id')
+  remove(@Param('id') _id: string): Promise<void> {
     return this.chatsService.remove(_id);
   }
 
